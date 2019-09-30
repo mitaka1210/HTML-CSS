@@ -1,0 +1,14 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+
+body {
+padding: 6em;
+}
+ul li {
+    list-style: none;
+    
+}
+
+ul li I{
+    letter-spacing: .5em;
+}
