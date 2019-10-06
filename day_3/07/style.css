@@ -1,7 +1,7 @@
 @import url('fontawesome-free-5.11.2-web/css/all.min.css');
 
 
-p {
+/*p {
    
    width: 7em;
    padding-bottom: .5em;
@@ -31,5 +31,28 @@ a {
 .second {
     border-radius: .2em;
     border: 1px solid orange;
+    background: orange;
+}*/
+
+p{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p>a {
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+p:first-child>a {
+    background: green;
+}
+
+p:last-child>a {
     background: orange;
 }
