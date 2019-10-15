@@ -1,3 +1,114 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .viewport {
-    color: red;
+    position: relative;
+    height: 100vh;
+
+    background-color: #666;
+}
+
+.viewport:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+.card {
+    color:white;
+    font-size: 3em;
+    position: absolute;
+    width: 12em;
+    top: 50%;
+    left: 50%;
+    background: #000;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: .2em;
+    box-shadow: 0 0 1.5em .1em rgba(0, 0, 0, 0.2);/*тук слагаме сянка зад картичката*/
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+
+
+
+.card:before {
+    display: block;
+    position: relative;
+    content: '';
+    background: rgba(0, 0, 0, 0.1); /*от тук можем да правим картинките малко по светли*/
+    box-shadow: 0 0 2em .2em rgba(0, 0, 0, 0.9) inset ; /*правим сянка отвърте на картичката от ТУК*/
+    
+    /* padding-top: 100%; */
+    /* сметнатата стойност 56.25 >>>>  https://css-tricks.comaspect-ratio-boxes/*/
+    z-index: 10;
+    transition: opacity .3s ease-in;
+}
+
+.card:hover{
+    transform: translate(-50%, -50%) scale((1.1));
+}
+.card:hover:before {
+    opacity: .1;
+}
+    
+
+.card.ar-16x9::before {
+    /* padding-top: 56.25%;  */
+    padding-top: calc(( 9 / 16) * 100%); 
+}
+
+/*тук правим портретна картинка*/
+
+.card.ar-9x16{
+    width: 6em;
+}
+
+.card.ar-9x16::before {
+    /* padding-top: 56.25%;  */
+    padding-top: calc(( 16 / 9) * 100%); 
+
+}
+
+.card .media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+}
+
+
+.card.potrait img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.card.landscape img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card .icon {
+    position: absolute;
+    color: #FFF;
+    bottom: 1.5em;
+    line-height: 1;
+    right: 1.5em;
+    pointer-events: none; /*от тук правим да можем да кликаме на иконката*/
+}
+
+.card .icon svg {
+    width: 1em;
+    height: 1em;
+    /* top: 0em;
+    position: absolute;
+    left: -5em; */
+    
 }
