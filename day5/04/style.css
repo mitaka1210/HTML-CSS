@@ -1,0 +1,60 @@
+body {
+background: rgb(238, 238, 238);
+}
+section {
+    position: absolute;
+    left: 28em;
+    width: 20.78em;
+    height: 26em;
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+
+
+}
+.content img {
+    position: absolute;
+    width: 22em;
+    height: auto;
+    left: 0em;
+    top: 0em;
+    box-shadow: 5px 10px 18px #888888;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.conttent2 {
+    display: block;
+    position: relative;
+    left: -.55em;
+    top: 12.9em;
+    right: -14em;
+    padding-left: 1em;
+    /* word-break: break-word; */
+    width: 20.9em;
+    padding-bottom: 3.5em;
+    background: rgb(255, 255, 255);
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+
+.button {
+    padding-right: 2em;
+    border: 1px solid green;
+    margin-right: 2em;
+    border-radius: .5em;
+    background-color: rgb(0, 153, 0);
+    position: absolute;
+    top: 10em;
+    left: 15em;
+}
+
+.button span {
+    padding-left: 2em;
+    color:white;
+}

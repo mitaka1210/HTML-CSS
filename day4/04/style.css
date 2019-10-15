@@ -1,0 +1,49 @@
+@import url('reset.css');
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+body {
+    padding-top: 5em;
+}
+header {
+    padding-bottom: 1em;;
+}
+header h1 {
+    display: inline-block;
+    width: 39%;
+}
+nav   {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    
+}
+
+ul li {
+    display: inline-block;
+    
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: green;
+}
+
+main {
+    border-top: 1px solid;
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+main h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+main p {
+    padding-bottom: 1em;
+}

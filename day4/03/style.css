@@ -1,0 +1,33 @@
+@import url('reset.css');
+
+
+html {
+    
+
+width: 50em;
+margin: 0 auto ;
+display: block;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+article {
+    margin: 2em 0 0 2em;
+}
+
+ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+margin-left: 2em;
+}
+
+img {
+    width: 32em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer>p{
+    margin-top: 1em;
+ }
