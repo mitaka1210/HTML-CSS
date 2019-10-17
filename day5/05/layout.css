@@ -1,0 +1,78 @@
+body {
+
+}/*МОЖЕ ДА РАСТЕШ КОЛКОТО ИСКАШ НО*/
+
+/*КОГАТА СТАНЕШ 60em СПРИ ДА РАСТЕШ И СЕ ЦЕНТРИРАЙ*/
+
+/*234 - ПИКСЕЛИТЕ КОЙТО ИСКАМЕ ДА ПОСТИГНЕМ*/
+
+/*FONT-SIZE СМЕ ГО ЗАДАЛИ 16px РАЗДЕЛЯМЕ 234/16 И НАМИРАМЕ КОЛКО (em) СА НИ НУЖНИ СПРЯМО ИСКАНИТЕ ПИКСЕЛИ*/
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    /* border-bottom: 1px solid #000; */
+}
+
+.site-main {
+    display: block;
+    position: relative;
+}
+
+
+.site-main img {
+    display: block;
+    position: relative;
+    float: right;
+    border: .5em solid #000;
+    padding: 1em;
+}
+
+.content {
+    display: block;
+    width: 25em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+blockquote {
+    display: block;
+    width: 26em;
+    position: relative;
+    float: right;
+    font-family: italic;
+    margin-top: -12em;
+    border-left-color: 1px solid beige;
+    border-left: 1px solid #000;
+    padding-left: 2em;
+    padding-bottom: 4em;
+}
+
+.name {
+    padding-top: 1em;
+    text-align: right;
+}
+
+.site-footer  h3 {
+    padding-top: 1em;;
+    padding-left: .5em;
+}
+.site-footer p {
+    padding: 1em;
+}
+
+.site-footer img {
+    display: block;
+    position: relative;
+    float: left;
+    padding: .5em;
+    border: .2em solid #000;
+    margin: 1em;
+}
