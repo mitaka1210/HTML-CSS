@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid #000;
+}
+footer {
+    margin-top: 3em;
+    width: 101.5%;
+    margin-left: -1em;
+    height: auto;
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}
+footer p {
+    padding-left: 1em;
+    color:  rgb(255, 255, 255);
+}

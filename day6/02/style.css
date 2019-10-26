@@ -1,0 +1,45 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('layout.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    display: flex;;
+    /* flex-wrap: wrap; */
+    padding: 2em;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    
+}
+article {
+    padding-right: 1em;
+}
+article p {
+    padding-top: 1em;
+}

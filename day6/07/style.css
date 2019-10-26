@@ -1,0 +1,126 @@
+/* @import url('typography.css');
+@import url('responsive.css');
+@import url('reset.css');
+@import url('layout.css'); */
+
+body {
+     background-color: rgb(238, 238, 238);
+}/*МОЖЕ ДА РАСТЕШ КОЛКОТО ИСКАШ НО*/
+
+/*КОГАТА СТАНЕШ 60em СПРИ ДА РАСТЕШ И СЕ ЦЕНТРИРАЙ*/
+
+/*234 - ПИКСЕЛИТЕ КОЙТО ИСКАМЕ ДА ПОСТИГНЕМ*/
+
+/*FONT-SIZE СМЕ ГО ЗАДАЛИ 16px РАЗДЕЛЯМЕ 234/16 И НАМИРАМЕ КОЛКО (em) СА НИ НУЖНИ СПРЯМО ИСКАНИТЕ ПИКСЕЛИ*/
+.site {
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+.site-title  {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    
+    /* border-bottom: 1px solid #000; */
+}
+h1 {
+    font-family: Georgia, serif;
+}
+
+hr {
+    color: #000;
+    border: 1px solid;
+}
+
+.site-main {
+    display: inline-block;
+    position: relative;
+    width: 51em;
+}
+img {
+    background: rgb(255, 255, 255);
+}
+
+.site-main img {
+    display: block;
+    position: relative;
+    float: right;
+    border: .5em solid #000;
+    padding: 1em;
+    margin-left: 2em;
+}
+
+.content {
+    display: block;
+    width: 25em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+blockquote {
+    display: block;
+    width: 20em;
+    position: relative;
+    float: right;
+    font-family: Georgia, serif;
+    margin-top: -13em;
+    
+    border-left: 1px solid #000;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+
+.name {
+    padding-top: 1em;
+    text-align: right;
+}
+
+.site-aside {
+    display: inline-block;
+    position: absolute;
+    /* float: right; */
+    margin-left: 1em;
+    padding-left: 6em;
+    width: -4em;
+    /* vertical-align: top; */
+    top: 10em;
+}
+
+.site-aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+  
+}
+
+.site-aside ul {
+    padding-bottom: 1em;
+}
+
+.site-aside h3 {
+    margin-left: -1.3em;
+}
+
+.site-footer  h3 {
+    padding-top: 1em;;
+    padding-left: .5em;
+}
+.site-footer p {
+    padding: 1em;
+}
+
+.site-footer img {
+    display: block;
+    position: relative;
+    float: left;
+    padding: .5em;
+    border: .2em solid #000;
+    margin: 1em;
+}

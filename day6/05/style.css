@@ -1,0 +1,29 @@
+html {
+   
+}
+
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+h1 {
+    display: flex;
+    flex: 0 0 74%
+}
+ul{
+    display: flex;
+    
+    
+}
+
+li {
+    display: flex;
+}
+a {
+    display: flex;
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    padding: 1em;
+}

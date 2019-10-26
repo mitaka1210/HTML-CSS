@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    padding: 7em;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    max-width: 15vw;
+    flex-wrap: wrap;
+
+    height: 35rem;
+}
+span {
+
+    border: 1px solid #000;
+}
+
+.upper-box-L,
+.upper-box-M,
+.upper-box-H,
+.upper-box-T {
+    background: red;
+    padding: 1em;
+}
+.upper-box-H{
+    order: -1;
+    display: flex;
+    
+}
+
+.box-e {
+    display: flex;
+    order: 1;
+}
+.box-t {
+    display: flex;
+    order: 0;
+}
+
+.upper-box-M {
+    order: 0;
+    display: flex;
+    
+}
+.box-a {
+    display: flex;
+    order: -2;
+}
+.box-i {
+    display: flex;
+    order: 0;
+}
+.box-c {
+    display: flex;
+    order: 1;
+}
+.box-n {
+    display: flex;
+    order: 1;
+}
+.box-s {
+    display: flex;
+    order: -1;
+}
+.box-m {
+    display: flex;
+    order: 0;
+}
+.upper-box-T {
+    order: 0;
+    display: flex;
+    
+}
+.upper-box-L {
+    order: 0;
+    display: flex;
+    
+}
+
+.letter {
+    background: green;
+    padding: 1em;
+}

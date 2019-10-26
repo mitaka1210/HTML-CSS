@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    justify-content: center;
+    background: rgb(238, 238, 238);
+    
+}
+
+.card {
+    display: flex;
+    flex-basis: 50%;
+    background: rgb(255, 255, 255);
+    border-radius:2px;
+}
+.card h1 {
+    display: flex;
+    flex-basis: 41%;
+    font-size: 1em;
+    margin-left: 1em;
+}
+.card p {
+    display: flex;
+    margin-top: 2em;
+    margin-left: -8em;
+}
