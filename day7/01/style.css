@@ -1,0 +1,19 @@
+span .MQ-Width::before {
+    font: 14px;
+}
+
+@media ( min-width: 600px ) {
+    .MQ-Width::after {
+        font: 16px;
+    }
+}
+
+.mq-height::before {
+    font: 14px;
+}
+
+@media ( min-width: 600px ) {
+    .mq-height::after {
+        font: 16px;
+    }
+}

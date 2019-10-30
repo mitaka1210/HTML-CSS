@@ -1,0 +1,57 @@
+.site-nav {
+
+}
+
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+    /*! Вместо да пишем долното кратко го записваме clear: both == overflow: hidden*/
+    background-color: #3742fa;
+}
+/*TODO: тук слагаме clear: both заради float*/
+/* .site-nav ul::after {
+    display: block;
+    content: '';
+    clear: both;
+} */
+/*! Със този селектор правим падащото меню*/
+.site-nav ul  ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 10em;
+    background-color: #000;
+} 
+
+.site-nav ul ul ul {
+    display: none;
+    top: 0;
+    left: 100%;
+    background: red;
+}
+/*TODO: тук правим само  първите li на главното меню да float:left*/
+.site-nav > ul > li {
+    float: left;
+}
+.site-nav li {
+    list-style: none outside;
+    display: block;
+    position: relative;
+   
+}
+/*! Със този селектор правим падащото меню*/
+.site-nav li:hover > ul {
+    display: block;
+}
+
+.site-nav a {
+    display: block;
+    padding: 1em 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+}
+.site-nav li:hover > a, /*? Тук правим background на About менюто  да остава активен докато сме в падналото меню. И така може да видим кое меню сме избра ли само с този първи ред .site-nav li:hover > a */
+.site-nav a:hover {
+    background-color: #ff6348;
+}
